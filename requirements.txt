@@ -1,0 +1,17 @@
+# Core ML and NLP dependencies
+datasets
+huggingface_hub
+torch>=2.0.0
+transformers>=4.30.0
+tokenizers
+numpy
+scipy
+matplotlib
+pandas
+opencc-python-reimplemented
+qhchina
+tqdm
+psutil
+streamlit
+plotly
+ijson

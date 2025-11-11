@@ -1,0 +1,36 @@
+
+================================================================================
+PERPLEXITY COMPARISON - 16-CHARACTER SEQUENCES
+================================================================================
+Sample size: 100 sequences per dataset
+
+Epoch   chinese_novels           mao                      
+----------------------------------------------------------
+-1       56.47± 1.57 (n=1000  )   13.91± 0.37 (n=1000  )  
+0        59.94± 1.65 (n=1000  )    9.66± 0.22 (n=1000  )  
+1        62.70± 1.74 (n=1000  )    8.18± 0.18 (n=1000  )  
+2        64.91± 1.82 (n=1000  )    7.27± 0.16 (n=1000  )  
+3        68.38± 1.91 (n=1000  )    6.75± 0.14 (n=1000  )  
+4        70.35± 1.96 (n=1000  )    6.55± 0.13 (n=1000  )  
+
+==================================================
+SUMMARY STATISTICS
+==================================================
+
+Dataset: chinese_novels
+------------------------------
+Epochs analyzed: 6
+Average perplexity across epochs: 63.789 ± 4.742
+Min perplexity: 56.465 (epoch -1)
+Max perplexity: 70.345 (epoch 4)
+Total sequences analyzed: 6,000
+Chunk utilization: 50628/50718 (99.8%)
+
+Dataset: mao
+------------------------------
+Epochs analyzed: 6
+Average perplexity across epochs: 8.720 ± 2.542
+Min perplexity: 6.553 (epoch 4)
+Max perplexity: 13.908 (epoch -1)
+Total sequences analyzed: 6,000
+Chunk utilization: 12396/14856 (83.4%)
