@@ -30,13 +30,11 @@ def upload_model_and_tokenizer(model_path, tokenizer_path, repo_name, private=Fa
     print(f"Uploading to repository: {repo_name}")
     
     try:
-        # Load model and tokenizer
         model = AutoModel.from_pretrained(model_path)
         tokenizer = AutoTokenizer.from_pretrained(tokenizer_path)
         
         print("✓ Model and tokenizer loaded successfully")
         
-        # Upload to Hugging Face Hub
         print("Uploading model...")
         model.push_to_hub(repo_name, private=private)
         
